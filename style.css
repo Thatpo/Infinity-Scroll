@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');;
 
-/* jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek */
+
 
 html {
    box-sizing: border-box;/* this border just makes every element in the file add 
@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   font-family: 'Style Script', cursive; 
-  background: whitesmoke;
+  background: linear-gradient(#e66465, #9198e5);
 }
 
 h1 {
@@ -22,14 +22,14 @@ h1 {
   letter-spacing: 5px;
 }
 
-/* Loader */
+
 .loader {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8); 
 }
 
 .loader img {
@@ -39,17 +39,24 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-/* Image Container */
+
 .image-container {
   margin: 10px 30%;
 }
 
 .image-container img {
   width: 100%;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
-/* Media Query: Large Smartphone */
+img {
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 20px;
