@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');;
 
 /* jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek */
 
 html {
-  box-sizing: border-box;
+   box-sizing: border-box;/* this border just makes every element in the file add 
+  the padding and border into that so 100px
+   width will be eqaul to the content plus border plus padding  */
 }
 
 body {
   margin: 0;
-  font-family: Bebas Neue, sans-serif;
+  font-family: 'Style Script', cursive; 
   background: whitesmoke;
 }
 
